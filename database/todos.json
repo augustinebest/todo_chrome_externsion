@@ -1,0 +1,8 @@
+{
+    "todos": [
+        {
+            "id": 1,
+            "task": "This is the very first task to be taken here"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Best inspires quotes",
+    "short_name": "InspireNugggets",
+    "description": "Inspired Nuggets for chrome browser's users",
+    "version": "1.0.0",
+    "author": "Augustine Best",
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "browser_action": {
+        "default_title": "Get Inspired",
+        "default_icon": "images/icon.png",
+        "default_popup": "popup/popup.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ]
+}
